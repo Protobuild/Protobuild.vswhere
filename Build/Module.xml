@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Module>
+  <Name>Protobuild.vswhere</Name>
+  <Authors>.NET Foundation</Authors>
+  <Description>A package containing the vswhere tool, so that Protobuild can operate on Visual Studio 2017 and later.</Description>
+  <LicenseUrl>https://opensource.org/licenses/MIT</LicenseUrl>
+  <ProjectUrl>https://protobuild.org/</ProjectUrl>
+  <IconUrl>https://protobuild.org/favicon.png</IconUrl>
+  <GitRepositoryUrl>https://github.com/Protobuild/Protobuild.vswhere</GitRepositoryUrl>
+  <DefaultAction>resync</DefaultAction>
+  <GenerateNuGetRepositories>true</GenerateNuGetRepositories>
+</Module>

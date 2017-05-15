@@ -1,0 +1,8 @@
+autopackage
+
+include ^vswhere\.definition$
+
+rewrite ^vswhere\.definition$ protobuild/Windows/Build/Projects/vswhere.definition
+
+include ^vswhere\.exe$
+rewrite ^vswhere\.exe$ protobuild/Windows/vswhere.exe
